@@ -8,3 +8,38 @@ body {
 .logo-text{
     font-size: 2rem;
 }
+/* slider section */
+.carousel-item {
+    height: 80vh;
+}
+
+.carousel-caption {
+    margin-bottom: 5%;
+    padding: 0 10%;
+}
+
+.carousel-caption h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+/* slider responsive  */
+@media screen and (max-width: 1200px) {
+    .carousel-caption {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption{
+        bottom: 50px;
+    }
+}
